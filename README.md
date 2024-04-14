@@ -3,4 +3,4 @@
 
  This tech demo utilizes techniques such as Multi-Threading and Greedy Meshing in order to reduce computation time and stored memory.	
 
- NOTICE. This project includes FastNoiseLite as a perlin noise algorithm. 
+ NOTICE. This project includes [FastNoiseLite](https://github.com/Auburn/FastNoiseLite?tab=readme-ov-file) as a perlin noise algorithm. 
