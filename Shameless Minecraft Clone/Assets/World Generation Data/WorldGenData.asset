@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b45b6eae918480b94d71f610ccd01e, type: 3}
+  m_Name: WorldGenData
+  m_EditorClassIdentifier: 
+  name: 
+  ElevationNoiseSettings:
+    NoiseType: 3
+    Scale: 2.11
+    Offset: {x: 128, y: 0, z: 0}
+    Power: 3
+    FractalType: 1
+    Octaves: 4
+    Lacunarity: 1.64
+    Persitance: 0.2
+  ElevationSpline:
+  - time: 0
+    value: 0.2
+  - time: 0.19
+    value: 0.19
+  - time: 0.28
+    value: 0.18
+  - time: 0.42
+    value: 0.15
+  - time: 0.54
+    value: 0.18
+  - time: 0.62
+    value: 0.2
+  - time: 0.69
+    value: 0.278
+  - time: 0.74
+    value: 0.35
+  - time: 0.8
+    value: 0.4
+  - time: 1
+    value: 0.57
+  ErosionNoiseSettings:
+    NoiseType: 3
+    Scale: 5.15
+    Offset: {x: -54, y: 0, z: 0}
+    Power: 1
+    FractalType: 1
+    Octaves: 4
+    Lacunarity: 1.64
+    Persitance: 0.5
+  ErosionSpline:
+  - time: 0
+    value: 0.02
+  - time: 0.2
+    value: 0.05
+  - time: 0.32
+    value: 0.08
+  - time: 0.48
+    value: 0.01
+  - time: 0.53
+    value: 0.26
+  - time: 0.562
+    value: 0.224
+  - time: 0.735
+    value: 0.254
+  - time: 1
+    value: 0.26
+  PeaksNoiseSettings:
+    NoiseType: 3
+    Scale: 3.65
+    Offset: {x: 20, y: 0, z: 0}
+    Power: 1
+    FractalType: 1
+    Octaves: 4
+    Lacunarity: 1.64
+    Persitance: 0.2
+  PeaksSpline:
+  - time: 0
+    value: 0
+  - time: 0.24
+    value: 0
+  - time: 0.43
+    value: -0.09
+  - time: 0.5
+    value: -0.12
+  - time: 0.6
+    value: -0.07
+  - time: 0.74
+    value: 0
+  - time: 0.83
+    value: 0.13
+  - time: 0.88
+    value: 0.28
+  - time: 0.94
+    value: 0.366
+  - time: 1
+    value: 0.4
+  TemperatureNoiseSettings:
+    NoiseType: 3
+    Scale: 3.87
+    Offset: {x: 1173.19, y: 83.6, z: 0}
+    Power: 1
+    FractalType: 1
+    Octaves: 4
+    Lacunarity: 0.66
+    Persitance: 0.97
+  TempuratureSpline:
+  - time: 0
+    value: 0
+  - time: 0.23
+    value: 0
+  - time: 0.24
+    value: -0.7
+  - time: 1
+    value: -1
+  MoistureNoiseSettings:
+    NoiseType: 3
+    Scale: 3.87
+    Offset: {x: -152.34, y: 11.4, z: 0}
+    Power: 1
+    FractalType: 1
+    Octaves: 4
+    Lacunarity: 0.66
+    Persitance: 0.97
+  MoistureSpline:
+  - time: 0
+    value: 0
+  - time: 0.23
+    value: 0
+  - time: 0.24
+    value: 0.7
+  - time: 1
+    value: 1
+  Biomes:
+  - {fileID: 11400000, guid: 61879b592a6de5746aeba691921acb50, type: 2}
+  - {fileID: 11400000, guid: 6656f4adcd41c476c9cce05a33e84c0f, type: 2}
+  - {fileID: 11400000, guid: c33c4789c03febc4699a1b3dcd01ae6d, type: 2}
+  - {fileID: 11400000, guid: d4feb645f201342b1914f0b49bf62e1a, type: 2}
+  TreeGenerationSettings:
+    gridDivisions: 4
+  surfaceThreshold: 0.53
+  CaveNoiseSettings:
+    NoiseType: 3
+    Scale: 0.2
+    Offset: {x: 0, y: 0, z: 0}
+    Power: 1
+    FractalType: 0
+    Octaves: 4
+    Lacunarity: 1
+    Persitance: 0.5
+  CaveMaskNoiseSettings:
+    NoiseType: 3
+    Scale: 1
+    Offset: {x: 0, y: 0, z: 0}
+    Power: 1
+    FractalType: 0
+    Octaves: 4
+    Lacunarity: 1
+    Persitance: 0.5
+  CaveGradientSpline:
+  - time: 0
+    value: 0
+  - time: 0.2
+    value: 0.2
+  - time: 0.6
+    value: 1
+  - time: 1
+    value: 0.8
+  displayType: 0

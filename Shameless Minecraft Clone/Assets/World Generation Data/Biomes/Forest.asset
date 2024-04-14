@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b89e4364ebd45858f18efeedf9ec96, type: 3}
+  m_Name: Forest
+  m_EditorClassIdentifier: 
+  name: 
+  Color: {r: 0.2655048, g: 0.6603774, b: 0.17817727, a: 1}
+  MaxTemperature: 0.3
+  MinTemperature: -0.4
+  MaxMoisture: 0.4
+  MinMoisture: 0.1
+  surfaceLayerID: 1
+  soilLayerID: 0
+  stoneLayerID: 2
+  StoneOffset: 4
+  trees:
+  - {fileID: 11400000, guid: 1386abfb02be4e6489ea27b24f620e9b, type: 2}

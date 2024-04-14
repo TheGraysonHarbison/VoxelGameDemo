@@ -1,0 +1,560 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.24f1 (334eb2a0b267) revision 3362482'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32628 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/derpy/GitHub/VoxelGameDemo/Shameless Minecraft Clone
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52220
+Successfully changed project path to: C:/Users/derpy/GitHub/VoxelGameDemo/Shameless Minecraft Clone
+C:/Users/derpy/GitHub/VoxelGameDemo/Shameless Minecraft Clone
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12464] Host "[IP] 10.0.0.122 [Port] 0 [Flags] 2 [Guid] 2476268941 [EditorId] 2476268941 [Version] 1048832 [Id] WindowsEditor(7,Grimbo-Matrix) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12464] Host "[IP] 10.0.0.122 [Port] 0 [Flags] 2 [Guid] 2476268941 [EditorId] 2476268941 [Version] 1048832 [Id] WindowsEditor(7,Grimbo-Matrix) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 13.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.24f1 (334eb2a0b267)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/derpy/GitHub/VoxelGameDemo/Shameless Minecraft Clone/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5992 MB
+    Driver:   31.0.15.1702
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011721 seconds.
+- Loaded All Assemblies, in  0.369 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 645ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (218ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.797 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 1464ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (189ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (511ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (349.7 KB). Loaded Objects now: 5576.
+Memory consumption went from 209.1 MB to 208.8 MB.
+Total: 5.491500 ms (FindLiveObjects: 0.590100 ms CreateObjectMapping: 0.188600 ms MarkObjects: 4.335400 ms  DeleteObjects: 0.376300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12793.414963 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(380d977ef8cb11f4a905f8579edf2687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Menu.unity using Guid(380d977ef8cb11f4a905f8579edf2687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b32e391cc2d1e37ac9f6a956c416c238') in 0.141438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ac457d9db4df4f1dc444f9ef9415b77') in 0.009473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Blocks/Stone.asset
+  artifactKey: Guid(d6572aec1e48d42ce97a56f5aa171378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Blocks/Stone.asset using Guid(d6572aec1e48d42ce97a56f5aa171378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a02b81546f62bd30bc8283c22ef84e10') in 0.042932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5ee28a34d034c9e88e1062d66dde36e') in 0.010067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f7dfe5aa01c6a0e945c71222f7ef2fe') in 0.009565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Scripts/Gameplay/UI/SUI_UIUpdateRequest.cs
+  artifactKey: Guid(ce16cb93704e2bc408880e9338a0ec4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Gameplay/UI/SUI_UIUpdateRequest.cs using Guid(ce16cb93704e2bc408880e9338a0ec4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6c3b8bd3b489fc213d68c134329ae5e') in 0.013908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7a964fa920a94765d8277f169235858') in 0.020712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Scripts/Gameplay/UI/UI_UpdateVariable.cs
+  artifactKey: Guid(7a57924057b2055478a5100a1265f276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Gameplay/UI/UI_UpdateVariable.cs using Guid(7a57924057b2055478a5100a1265f276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48c6624958100864dc959cf887def679') in 0.025378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Scripts/Gameplay/UI/VoxelBar.cs
+  artifactKey: Guid(dfb07ed8941df7d4d8e1995ab22fbb56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Gameplay/UI/VoxelBar.cs using Guid(dfb07ed8941df7d4d8e1995ab22fbb56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ebbe26f935c010f2ec85318b815510a') in 0.030991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Atlas/AtlasInfo.json
+  artifactKey: Guid(57ec185fc63564f9dab502c5300fd298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Atlas/AtlasInfo.json using Guid(57ec185fc63564f9dab502c5300fd298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02320f4ce8aa0c8a507f4f258a03d80b') in 0.012914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/World Generation Data/Biomes/Forest.asset
+  artifactKey: Guid(c33c4789c03febc4699a1b3dcd01ae6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/World Generation Data/Biomes/Forest.asset using Guid(c33c4789c03febc4699a1b3dcd01ae6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a8d57006a7e1633f98af7ed3a4b8921') in 0.016178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Scripts/World Generation/WorldConstants.cs
+  artifactKey: Guid(2048b4d37a19b469097fcd167a9ed91f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/World Generation/WorldConstants.cs using Guid(2048b4d37a19b469097fcd167a9ed91f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4af6a38db0b816f129d998b89e710907') in 0.018877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Scripts/World Generation/Voxel Data/Voxel.cs
+  artifactKey: Guid(ac828a17f29a341eabd15900a7786a44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/World Generation/Voxel Data/Voxel.cs using Guid(ac828a17f29a341eabd15900a7786a44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3b46d01c6868e90636f474bae39c3b6') in 0.015427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c105f3413c4cc2953d03e92cfa54e0e') in 0.056769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Scripts/Gameplay/GameplayManager.cs
+  artifactKey: Guid(3020a03fd2d2bf84db0b87f681a88b6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Gameplay/GameplayManager.cs using Guid(3020a03fd2d2bf84db0b87f681a88b6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8c2ab2cbc23a72e63e7d5dfb05b3ba9') in 0.014009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/World/PostProcessingVolume Profile.asset
+  artifactKey: Guid(2884abdb4a974c6458ef3e7eff887a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/World/PostProcessingVolume Profile.asset using Guid(2884abdb4a974c6458ef3e7eff887a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db464f15850e6d1556c371748825bb07') in 0.016554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Scripts/World Generation/VoxelMapper.cs
+  artifactKey: Guid(23edd3dd7f92b485d9d4bfbbb1d1ddcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/World Generation/VoxelMapper.cs using Guid(23edd3dd7f92b485d9d4bfbbb1d1ddcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b7faca0befc6ec14e7bd989571de812') in 0.014060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Scripts/Gameplay/UI/UI_RequestMenuChange.cs
+  artifactKey: Guid(93b12e827c7602042a2cb169d249df8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Gameplay/UI/UI_RequestMenuChange.cs using Guid(93b12e827c7602042a2cb169d249df8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed409405e269d6ffe42954249bf76570') in 0.014703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Resources/Textures/Dirt_Block.png
+  artifactKey: Guid(25679b8b10546964397cbcc89e606b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Textures/Dirt_Block.png using Guid(25679b8b10546964397cbcc89e606b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a75d3eef1afd0e9dc1c16fdba793d755') in 0.020110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Scripts/Gameplay/UI/FogController.cs
+  artifactKey: Guid(73e37a6314cc34d4db4cedf188911d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Gameplay/UI/FogController.cs using Guid(73e37a6314cc34d4db4cedf188911d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '631e305ae2db0f1c700347bd128c07a5') in 0.011602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Blocks/Log.asset
+  artifactKey: Guid(e59b85901ca49274fba8a0bb44ab7471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Blocks/Log.asset using Guid(e59b85901ca49274fba8a0bb44ab7471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7227b325458387a2b6fd7aa6d94ff466') in 0.011055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/World Generation Data/WorldGenData.asset
+  artifactKey: Guid(048ed9b306bf7448ca335488d245bc8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/World Generation Data/WorldGenData.asset using Guid(048ed9b306bf7448ca335488d245bc8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa0520cb26e0fb0f02ba53a51ab44cec') in 0.018640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Target.prefab
+  artifactKey: Guid(299100857fc4101488670e1882963395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Target.prefab using Guid(299100857fc4101488670e1882963395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45b224327d50f032e41af90ecacac42a') in 0.033116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Scripts/World Generation/Biome System/Noise/NoiseSampler.cs
+  artifactKey: Guid(1f74fd9c29ca44bf8b0314668b6cd072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/World Generation/Biome System/Noise/NoiseSampler.cs using Guid(1f74fd9c29ca44bf8b0314668b6cd072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '308878d7a10234f1bace750fbb891eb3') in 0.012550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Scripts/World Generation/WorldGenerationManager.cs
+  artifactKey: Guid(4a924114d2b0d47c8b379488072419a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/World Generation/WorldGenerationManager.cs using Guid(4a924114d2b0d47c8b379488072419a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd49511faf76757849293b6afb524a519') in 0.013957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Textures/Stone_Block.png
+  artifactKey: Guid(e5ceeef754e0d4946b9965bd42da3304) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Textures/Stone_Block.png using Guid(e5ceeef754e0d4946b9965bd42da3304) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e2e275b8ce931985cb801c6c5427449') in 0.021551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Scripts/World Generation/Biome System/BiomeSettings.cs
+  artifactKey: Guid(a8b89e4364ebd45858f18efeedf9ec96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/World Generation/Biome System/BiomeSettings.cs using Guid(a8b89e4364ebd45858f18efeedf9ec96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55d9109a1a6fa53d419993b8969a9045') in 0.013005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Scripts/Gameplay/UI/UI_AlertBox.cs
+  artifactKey: Guid(ebc6ace77b6763a4a9d64d54f708cd70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Gameplay/UI/UI_AlertBox.cs using Guid(ebc6ace77b6763a4a9d64d54f708cd70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12b6a32abb0c98e87c50dcb692b84e8b') in 0.011224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '488c3fcc954c5cba29dd659b6d3e9f5b') in 0.009202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '487c52f77183769f8d401dfec8cf8b88') in 0.025525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12e3788d88ac72a1997490bfb58ac69c') in 0.011497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/ChunkMaterial.mat
+  artifactKey: Guid(3b6057dc5075b46f3a76daf271157659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ChunkMaterial.mat using Guid(3b6057dc5075b46f3a76daf271157659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ada8496f62891eb5590e56365a6166be') in 0.018080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/UI/Knob.png
+  artifactKey: Guid(26593939d52a1534c8d367fce57a81e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/UI/Knob.png using Guid(26593939d52a1534c8d367fce57a81e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8a852d2f39a1f1a80e133471038251f') in 0.031587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Shaders/WaterShader.shadergraph
+  artifactKey: Guid(0ee481aafe15b214ca68a0add2eec773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/WaterShader.shadergraph using Guid(0ee481aafe15b214ca68a0add2eec773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ac2314a577422a72e0bb1d9c4aad81d') in 0.014944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Scripts/Gameplay/UI/UI_RequestApplicationQuit.cs
+  artifactKey: Guid(b8e5f303ad0345d4987a6b66f9f68b6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Gameplay/UI/UI_RequestApplicationQuit.cs using Guid(b8e5f303ad0345d4987a6b66f9f68b6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b2d31f122a2733da30bb551786542a5') in 0.009671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97d615dca9ed3493d52220cd93163b1c') in 0.012329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Textures/Log_Block.png
+  artifactKey: Guid(eb0a9c1c75979a74d9e89879d811e689) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Textures/Log_Block.png using Guid(eb0a9c1c75979a74d9e89879d811e689) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'afd419e5b36e7d4ece44ee06c7af69d2') in 0.017618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Scripts/Editor/World Tools/VoxelManagerInspector.cs
+  artifactKey: Guid(0c25ab506043244ceba35a745d02b3b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Editor/World Tools/VoxelManagerInspector.cs using Guid(0c25ab506043244ceba35a745d02b3b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa4d254eeb434e5de389fd9c108a79e9') in 0.009487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/World Generation Data/Biomes/Desert.asset
+  artifactKey: Guid(61879b592a6de5746aeba691921acb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/World Generation Data/Biomes/Desert.asset using Guid(61879b592a6de5746aeba691921acb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c9865781e2639c3768865fe5dd3f04cb') in 0.011207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Scripts/Gameplay/DemoCam.cs
+  artifactKey: Guid(b5f2589789358e3498fbbdf69380536c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Gameplay/DemoCam.cs using Guid(b5f2589789358e3498fbbdf69380536c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4807a29e270bb7a9f8724041cf1e10ef') in 0.009727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8b523e2b821690c312ace71ca86400a') in 0.015902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TODO.txt
+  artifactKey: Guid(790cfb3e2551fb44da8caf3e551679cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TODO.txt using Guid(790cfb3e2551fb44da8caf3e551679cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8853b85c168273aa3299bdcaa8f3f03d') in 0.009901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Shaders/ChunkShaderGraph.shadergraph
+  artifactKey: Guid(6e7bcbfe17e1fb549b25907995a3970f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/ChunkShaderGraph.shadergraph using Guid(6e7bcbfe17e1fb549b25907995a3970f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bdee2f886fefe53208f3be1f9c60d78c') in 0.012568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Resources/Textures/Bedrock_Block.png
+  artifactKey: Guid(0fa94941a60f29447a043bf69fe7761b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Textures/Bedrock_Block.png using Guid(0fa94941a60f29447a043bf69fe7761b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e811778672c6caa9414fd4e2fbe6ec5') in 0.016858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Scripts/Gameplay/UI/SUI_ApplySettingRequest.cs
+  artifactKey: Guid(ff6562483c91a4e4ea9368261fa9b324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Gameplay/UI/SUI_ApplySettingRequest.cs using Guid(ff6562483c91a4e4ea9368261fa9b324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee356cc764aac0664fa0a572954ce61b') in 0.009696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Scripts/Gameplay/Player/PlayerContoller.cs
+  artifactKey: Guid(29ffbeed7ad51ba4c80bd529866dfaf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/Gameplay/Player/PlayerContoller.cs using Guid(29ffbeed7ad51ba4c80bd529866dfaf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e39de0f66034385d6230799dbee6ee6') in 0.012573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/Skyboxes/WorldSky.png
+  artifactKey: Guid(b753401875fa65948b0799fc65791c51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Skyboxes/WorldSky.png using Guid(b753401875fa65948b0799fc65791c51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0ea6bf0b73fa63948fb2ecab30769d5') in 0.027358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

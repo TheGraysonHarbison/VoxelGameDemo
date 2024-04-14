@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f40a64b6796f6434eb52d7bc0b15643b, type: 3}
+  m_Name: Tree
+  m_EditorClassIdentifier: 
+  trunkID: 6
+  leavesID: 7
+  minTrunkHeight: 5
+  maxTrunkHeight: 7
+  leavesDistanceFromTopOfTrunk: 1
+  leaveScale: 3
+  leaveRadiusMinimum: 2
+  leaveRadiusMaximum: 4

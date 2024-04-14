@@ -1,0 +1,54 @@
+-Make Water
+-Seperate the solid and transparent voxels into a series of Passes and then calculate the mesh data for each
+-When a chunk recives these Passes it will create a gameobject for each.
+
+
+-Make Player
+-Create a gameplay manager which will manage the player and also create a seris of controll functions for world generation
+-that will be used by the gameplay manager
+
+-The World Generation Script will stay in the world scene while the gameplay and voxel manager scene will start in the menu
+
+-The gameplay manager should create the texture atlas at awake
+-the gameplay manager provides the world generator with generation settings before scene change
+-noisemaps should be created after we change into the world scene
+-we spawn the player at correct hight and lock its movement
+-Once the world gen creates the spawn chunk we then unlock the player
+
+-UI managers will be independent to each scene and will subscribe to the scene change events of the game manager
+-UI Components will talk only to the current ui manager these components will include
+
+-RequestSceneChange
+-RequestMenuChange
+-RequestWarningBox
+-RequestApplicationQuit
+
+-Make Trees
+-Generate trees for the current chunk and surrounding chunks however the will be Structure objects
+-Structure objects will compare their bounds to the current chunk in order to determine their intersection
+
+-Fix Water Good Enough
+-Make chunks delete their gameobject instead of disabling it
+
+-Make Voxel Editing
+-Voxel Manager does not load atlas properly in builds
+
+-Fix Players Physics
+-Make More Biomes
+
+-Add Bedrock
+
+-Make Settings
+-Settings will include
+-Mouse Sensitivity
+-Chunk Loading Distance
+-Fullscree
+-Fog
+
+-Enable Mist Pass And Fog
+-Make Skybox
+-Make Cubemap For Main Menu
+-Cubemaps Can Be Baked Using Reflection Probes
+
+-Add Sprinting
+-Add Editor Screenshot Tool
